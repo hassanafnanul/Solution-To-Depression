@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:gravity="end"
+    android:id="@+id/senderSampleViewID"
+    >
+
+    <TextView
+        android:id="@+id/showMessageID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Assalamualikum"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:padding="20dp"
+        android:background="@drawable/message_sender_background"
+        />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/senderNameForReceiverID"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:textSize="1dp"
+        />
+
+
+
+
+</LinearLayout>

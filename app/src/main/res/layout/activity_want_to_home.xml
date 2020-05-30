@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WantToHome"
+    android:background="@drawable/background"
+    >
+
+
+    <ListView
+        android:id="@+id/peachRoomListViewID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:divider="#00000000"
+        android:padding="25dp"
+        android:dividerHeight="15dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/add_peach_room"
+        android:layout_margin="20dp"
+        android:layout_alignBottom="@+id/peachRoomListViewID"
+        android:layout_alignRight="@id/peachRoomListViewID"
+        android:layout_alignEnd="@id/peachRoomListViewID"
+        android:onClick="AddPeachRoom"
+        />
+
+
+
+</RelativeLayout>

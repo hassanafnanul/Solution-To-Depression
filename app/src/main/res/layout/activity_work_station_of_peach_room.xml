@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WorkStationOfPeachRoom"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/appHeaderID"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/colorPrimaryDark"
+        android:weightSum="3"
+        android:outlineSpotShadowColor="#000000"
+        >
+
+        <ImageView
+            android:id="@+id/headerHomeID"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/homehome"
+            android:onClick="UseHeader"
+            android:padding="13dp"
+            />
+
+
+
+        <ImageView
+            android:id="@+id/headerAddID"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/addadd"
+            android:onClick="UseHeader"
+            android:padding="13dp"
+            />
+
+
+        <ImageView
+            android:id="@+id/headerProfileID"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_person_black_24dp"
+            android:onClick="UseHeader"
+            android:padding="13dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:weightSum="2"
+        >
+
+        <TextView
+            android:id="@+id/peachRoomNameID"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="match_parent"
+            android:text="PeachRoom Name"
+            android:gravity="center_vertical"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:paddingLeft="15dp"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight=".25"
+            android:layout_height="match_parent"
+            android:src="@drawable/friends"
+            android:padding="9dp"
+            android:onClick="GoToMemberDetailesLst"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight=".25"
+            android:layout_height="match_parent"
+            android:src="@drawable/chat_icon"
+            android:padding="9dp"
+            android:onClick="GoToGroupChatRoom"
+            />
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:src="@drawable/line" />
+
+    <ListView
+        android:id="@+id/postListViewID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:divider="#00000000"
+        android:dividerHeight="8dp"
+        android:paddingRight="10dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "893376617109",
+    "firebase_url": "https://aspirant-cf3ab.firebaseio.com",
+    "project_id": "aspirant-cf3ab",
+    "storage_bucket": "aspirant-cf3ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893376617109:android:a81f9c3988f3af92f7199c",
+        "android_client_info": {
+          "package_name": "com.afnanulcoder.aspirant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893376617109-j0o08dd8hlgbbodkj99o8idjn3ekesh7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.afnanulcoder.aspirant",
+            "certificate_hash": "70301d480df942bd47b3f3ce2f3adf17cb08076a"
+          }
+        },
+        {
+          "client_id": "893376617109-pn04h44um56p8c3cn3egm2rv3gt7g8qs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChaBWG3aSriUt_K0AKOSQKdkG-q_stAjw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "893376617109-pn04h44um56p8c3cn3egm2rv3gt7g8qs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GetYourPeachRoom"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    >
+
+
+    <ListView
+        android:id="@+id/peachRoomListViewID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:divider="#00000000"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:dividerHeight="15dp" />
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/finalNeedSignUpButtonID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/peachRoomListViewID"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:background="@drawable/round_corner_shape"
+        android:shadowColor="@color/colorPrimary"
+        android:text="Sign Up now"
+        android:textColor="@color/blue"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="NeedHelpFinalSignUp"
+        android:layout_marginBottom="30dp"
+        />
+
+
+
+
+</RelativeLayout>

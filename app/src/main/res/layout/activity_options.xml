@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Options"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@drawable/background"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:background="@color/colorPrimary"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:padding="20dp"
+        android:weightSum="2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:padding="10dp"
+            >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:src="@drawable/option_home"
+                android:padding="15dp"
+                android:background="@drawable/round_corner_shape"
+                android:textSize="25sp"
+                android:textAllCaps="false"
+                android:layout_margin="5dp"
+                android:onClick="GoToHome"
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:src="@drawable/option_profile"
+                android:padding="15dp"
+                android:background="@drawable/round_corner_shape"
+                android:textSize="25sp"
+                android:textAllCaps="false"
+                android:layout_margin="5dp"
+                android:onClick="GoToProfile"
+                />
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:padding="10dp"
+            >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:src="@drawable/option_games"
+                android:padding="15dp"
+                android:background="@drawable/round_corner_shape"
+                android:textSize="25sp"
+                android:textAllCaps="false"
+                android:layout_margin="5dp"
+                android:onClick="GoToGames"
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:src="@drawable/option_about_us"
+                android:padding="15dp"
+                android:background="@drawable/round_corner_shape"
+                android:textSize="25sp"
+                android:textAllCaps="false"
+                android:layout_margin="5dp"
+                android:onClick="GoToAbout"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:background="@color/colorPrimary"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home_NeedHelp"
+    android:background="@drawable/background"
+    >
+
+
+
+    <LinearLayout
+        android:id="@+id/appHeaderID"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/colorPrimaryDark"
+        android:weightSum="3"
+        android:outlineSpotShadowColor="#000000"
+        >
+
+        <ImageView
+            android:id="@+id/headerHomeID"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/homehome"
+            android:onClick="UseHeader"
+            android:padding="13dp"
+            />
+
+
+
+        <ImageView
+            android:id="@+id/headerAddID"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/addadd"
+            android:onClick="UseHeader"
+            android:padding="13dp"
+            />
+
+
+        <ImageView
+            android:id="@+id/headerProfileID"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_person_black_24dp"
+            android:onClick="UseHeader"
+            android:padding="13dp"
+            />
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/peachRoomListViewID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/appHeaderID"
+        android:layout_marginTop="0dp"
+        android:divider="#00000000"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:dividerHeight="15dp" />
+
+</RelativeLayout>

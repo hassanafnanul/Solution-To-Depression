@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="7dp"
+    android:background="@drawable/round_corner_shape"
+    android:layout_margin="9dp"
+    >
+
+
+    <TextView
+        android:id="@+id/peachRoomNameID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/peachRoomCategoryID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        android:textSize="20sp"
+        android:textColor="#474747"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="6">
+
+        <TextView
+            android:id="@+id/peachRoomLevelID"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:text="Level"
+            android:textSize="20sp"
+            android:textColor="#474747"
+            />
+
+        <TextView
+            android:id="@+id/peachRoomMemberID"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="Member: 0"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/peachRoomSDescriptionID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Short Description"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:padding="5dp"
+        />
+
+
+</LinearLayout>
